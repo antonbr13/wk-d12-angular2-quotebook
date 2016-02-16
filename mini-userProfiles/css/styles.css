@@ -1,0 +1,10 @@
+body {
+   text-align: center;
+}
+
+.container {
+   background: rgb(151, 191, 250);
+   width: 15%;
+   margin: 0 auto;
+   padding-bottom: 10px;
+}
