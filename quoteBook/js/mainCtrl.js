@@ -5,8 +5,4 @@ $scope.add = dataService.addData;
 $scope.remove = dataService.removeData;
 
 
-
-
-
-
 });

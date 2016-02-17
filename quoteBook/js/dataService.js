@@ -9,7 +9,6 @@ app.service('dataService', function() {
          if (inputtext && inputauthor) {
             quotes.push({text:inputtext, author:inputauthor});
          }
-         
       };
 
    this.removeData = function(authorName) {
