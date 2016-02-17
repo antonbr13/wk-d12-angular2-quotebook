@@ -1,0 +1,39 @@
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+body{
+   font-family: "Open Sans";
+   background: rgba(#96a198, 0.8);
+   text-align: center;
+}
+
+.authorstyles {
+   line-height: 1px;
+
+}
+
+.filter,.create,.search,.remove {
+   display: inline-block;
+
+   padding: 0 40px;
+
+}
+
+.create, .search {
+   border-right: 2px solid black;
+}
+
+.authorblock {
+   margin: 40px auto;
+   padding: 20px 0;
+   background: #1dd1d6;
+   border-radius: 8px;
+   width: 50%;
+   box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.2);
+
+}
